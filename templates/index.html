@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LLM Chat</title>
+</head>
+
+<body>
+    <h1>Chat with the Assistant</h1>
+    <form method="POST">
+        <textarea name="user_input" rows="5" cols="60" placeholder="Enter your question here..."></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+
+    {% if assistant_reply %}
+    <h2>Assistant's Reply:</h2>
+    <p>{{ assistant_reply }}</p>
+    {% endif %}
+</body>
+
+</html>
