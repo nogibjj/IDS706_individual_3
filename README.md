@@ -50,3 +50,8 @@ I am using AWS App Runner to seamlessly deploy my container as a publicly access
 You can access the chatbot now at https://mk3zumewm2.us-east-1.awsapprunner.com/
 
 ![realchatbot](./img/chatbot.png)
+
+## Video
+
+Here is the video demo to this project.
+[![Watch the video](https://img.youtube.com/vi/G56gl9GR-vI/0.jpg)](https://youtu.be/G56gl9GR-vI)
