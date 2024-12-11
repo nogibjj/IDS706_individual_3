@@ -18,4 +18,4 @@ lint:
 check: lint
 
 run:
-	. $(VENV_DIR)/bin/activate && python main.py
+	. $(VENV_DIR)/bin/activate && python app.py
